@@ -29,6 +29,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func launchPressed(_ sender: Any) {
+        print("Launch button pressed")
         launchModeView.isHidden = false
         player?.play()
         UIView.animate(withDuration: 3.0, animations:
@@ -42,6 +43,7 @@ class ViewController: UIViewController {
             self.launchLabel.isHidden = false
             self.onLabel.isHidden = false
         }
+        
         
     }
 }
