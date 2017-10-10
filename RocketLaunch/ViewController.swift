@@ -42,7 +42,7 @@ class ViewController: UIViewController {
             self.launchLabel.isHidden = false
             self.onLabel.isHidden = false
         }
-        
+        print("App finished its work")
         
     }
 }
