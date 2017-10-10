@@ -29,6 +29,8 @@ class ViewController: UIViewController {
 
 
     @IBAction func launchPressed(_ sender: Any) {
+        print("Launch Pressed")
+        
         launchModeView.isHidden = false
         player?.play()
         UIView.animate(withDuration: 3.0, animations:
